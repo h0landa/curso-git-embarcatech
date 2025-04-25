@@ -1,0 +1,13 @@
+mkdir repo_local
+ls
+cd repo_local
+git init
+git config user.name Holanda
+git config --list --local
+git config user.email holandaarthur46@gmail.com
+git add *
+git commit -m "primeiro commit"
+git remote -v
+git remote add origin https://github.com/h0landa/curso-git-embarcatech.git
+git branch -M main
+git push -u origin main
